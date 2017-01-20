@@ -1,4 +1,11 @@
-# ayap
+# AYAP in Jesus name
+
+This is an emberjs website for https://ayap.club
+
+
+# Hallelujah
+
+## EmberJS Readme
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
