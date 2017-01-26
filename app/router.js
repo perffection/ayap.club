@@ -9,6 +9,9 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('index-aleluya');
   this.route('aboutus-aleluya');
+  this.route('ourneeds-aleluya');
+  this.route('blog-aleluya');
+  this.route('media-aleluya');
 });
 
 export default Router;

@@ -134,6 +134,15 @@ define('ayap/tests/routes/aboutus-aleluya.jshint.lint-test', ['exports'], functi
     assert.ok(true, 'routes/aboutus-aleluya.js should pass jshint.');
   });
 });
+define('ayap/tests/routes/blog-aleluya.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/blog-aleluya.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/blog-aleluya.js should pass jshint.');
+  });
+});
 define('ayap/tests/routes/index-aleluya.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
@@ -150,6 +159,24 @@ define('ayap/tests/routes/index.jshint.lint-test', ['exports'], function (export
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'routes/index.js should pass jshint.');
+  });
+});
+define('ayap/tests/routes/media-aleluya.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/media-aleluya.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/media-aleluya.js should pass jshint.');
+  });
+});
+define('ayap/tests/routes/ourneeds-aleluya.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/ourneeds-aleluya.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/ourneeds-aleluya.js should pass jshint.');
   });
 });
 define('ayap/tests/test-helper', ['exports', 'ayap/tests/helpers/resolver', 'ember-qunit'], function (exports, _ayapTestsHelpersResolver, _emberQunit) {
@@ -186,6 +213,27 @@ define('ayap/tests/unit/routes/aboutus-aleluya-test.jshint.lint-test', ['exports
     assert.ok(true, 'unit/routes/aboutus-aleluya-test.js should pass jshint.');
   });
 });
+define('ayap/tests/unit/routes/blog-aleluya-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:blog-aleluya', 'Unit | Route | blog aleluya', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('ayap/tests/unit/routes/blog-aleluya-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/blog-aleluya-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/blog-aleluya-test.js should pass jshint.');
+  });
+});
 define('ayap/tests/unit/routes/index-aleluya-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('route:index-aleluya', 'Unit | Route | index aleluya', {
@@ -205,6 +253,48 @@ define('ayap/tests/unit/routes/index-aleluya-test.jshint.lint-test', ['exports']
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/routes/index-aleluya-test.js should pass jshint.');
+  });
+});
+define('ayap/tests/unit/routes/media-aleluya-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:media-aleluya', 'Unit | Route | media aleluya', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('ayap/tests/unit/routes/media-aleluya-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/media-aleluya-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/media-aleluya-test.js should pass jshint.');
+  });
+});
+define('ayap/tests/unit/routes/ourneeds-aleluya-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:ourneeds-aleluya', 'Unit | Route | ourneeds aleluya', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('ayap/tests/unit/routes/ourneeds-aleluya-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/ourneeds-aleluya-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/ourneeds-aleluya-test.js should pass jshint.');
   });
 });
 /* jshint ignore:start */
