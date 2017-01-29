@@ -313,7 +313,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ayap/app")["default"].create({"name":"ayap","version":"0.0.0+fbcac041"});
+  require("ayap/app")["default"].create({"name":"ayap","version":"0.0.0+c12a4b8b"});
 }
 
 /* jshint ignore:end */
