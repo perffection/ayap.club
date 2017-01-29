@@ -1,0 +1,9 @@
+.teammember-aleluya {
+  max-width:250px;
+  max-height:250px;
+  border-radius: 12px;
+  border-color:#ccc;
+  padding-left:8px;
+  padding-bottom:3px;
+  float:right;
+}
